@@ -18,8 +18,8 @@ with open('codigo UASG.txt', 'r') as csvfile:
         cod_UASG_list.append(row[0])
 
 #Creates date range list
-data_inicial = datetime.datetime(2018, 1, 1)
-data_final = datetime.datetime(2018, 12, 31)
+data_inicial = datetime.datetime(2019, 1, 1)
+data_final = datetime.datetime(2019, 12, 31)
 
 #Create data range
 days_list = []
