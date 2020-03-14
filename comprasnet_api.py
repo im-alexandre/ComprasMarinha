@@ -11,8 +11,4 @@ def get_pregoes(uasg: str):
     response = r.request('GET', url=url, params=data)
     return response.json()
 
-pd.DataFrame.from_dict(get_pregoes('762200')['_embedded']).to_csv('teste_api.csv')
 
-
-# df = pd.read_csv('teste_api.csv')
-# print(df)
